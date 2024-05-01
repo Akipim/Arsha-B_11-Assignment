@@ -1,0 +1,65 @@
+:root{
+    --bg-color : #375173;
+}
+
+
+
+nav{
+    background-color: var(--bg-color);
+}
+
+
+nav a{
+    color: white !important;
+}
+
+
+.front{
+    background-color: var(--bg-color);
+}
+
+.my-img{
+    animation: image 2s linear infinite alternate;
+}
+
+.my-image{
+    filter: grayscale(100%);
+    transition: all 0.4s;
+}
+
+.my-image:hover{
+    filter: grayscale(0);
+    scale: 1.1;
+}
+
+
+@keyframes image {
+
+    from{
+        transform: translateY(0);
+    }
+
+    to{
+        transform: translateY(-30px);
+    }
+}
+
+
+.my-img:hover{
+    animation-play-state: paused;
+}
+
+@media only screen and (max-width:988px){
+    .btns{
+        justify-content: center !important;
+    }
+
+        .my-img{
+            animation-play-state: paused;
+            width: 60% !important;
+        }
+
+    .front-page{
+        flex-direction: column-reverse;
+    }
+}
