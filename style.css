@@ -32,6 +32,23 @@ nav a{
     scale: 1.1;
 }
 
+.gray-line{
+    width: 15%;
+    height: 2px;
+    background-color: gray;
+}
+
+.blue-line{
+
+    height: 4px;
+    width: 40%;
+    background-color: var(--bs-info);
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 
 @keyframes image {
 
