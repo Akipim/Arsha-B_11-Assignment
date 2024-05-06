@@ -1,5 +1,6 @@
 :root{
     --bg-color : #375173;
+    
 }
 
 
@@ -47,6 +48,17 @@ nav a{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+
+
+.my-h1{
+    color: var(--bg-color);
+}
+
+
+.progress-bar{
+    background-color: var(--bg-color);
 }
 
 
