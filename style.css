@@ -61,6 +61,47 @@ nav a{
     background-color: var(--bg-color);
 }
 
+.bg-image{
+    padding: 8rem;
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg) fixed center center;
+}
+
+
+.main:hover .overlay{
+    opacity: 1;
+
+}
+
+.main{
+    overflow: hidden;
+}
+.main img{
+   transition: all 1s;
+
+}
+.main:hover img{
+   scale: 1.1;
+
+}
+
+
+.overlay{
+    right: 0;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: rgb(0, 166, 255);
+    color: white;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.9s;
+}
+
+.btnhover:hover{
+    transition: all 0.9s;
+    background-color: #0DCAF0;
+    color: white;
+}
+
 
 @keyframes image {
 
